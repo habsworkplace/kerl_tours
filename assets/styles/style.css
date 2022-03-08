@@ -12463,6 +12463,11 @@ GENERAL
   position: relative;
   background-color: #ffffff;
 }
+.trending-tour-item  .trending-tour-item__info {
+  padding: 15px 20px;
+  position: relative;
+  background-color: #ffffff;
+}
 
 .trending-tour-item__name {
   margin-bottom: 3px;
@@ -12510,7 +12515,7 @@ GENERAL
   margin: 0;
   position: absolute;
   right: 20px;
-  top: 52px;
+  top: 26px;
   text-decoration: line-through;
   font-family: Lato-700;
   font-size: 20px;
@@ -12643,7 +12648,7 @@ GENERAL
 
 .col-4-tour .trending-tour-item__group-infor__price, .filterable-tour .trending-tour-item__group-infor__price, .grid-left-sidebar .trending-tour-item__group-infor__price, .similar-tour .trending-tour-item__group-infor__price, .related-tour .trending-tour-item__group-infor__price {
   font-size: 20px;
-  top: 70px;
+  top: 50px;
 }
 
 .col-4-tour .trending-tour-item__group-infor__sale-price, .filterable-tour .trending-tour-item__group-infor__sale-price, .grid-left-sidebar .trending-tour-item__group-infor__sale-price, .similar-tour .trending-tour-item__group-infor__sale-price, .related-tour .trending-tour-item__group-infor__sale-price {
@@ -12653,6 +12658,10 @@ GENERAL
 .col-4-tour .trending-tour-item__group-infor__lasting, .filterable-tour .trending-tour-item__group-infor__lasting, .grid-left-sidebar .trending-tour-item__group-infor__lasting, .similar-tour .trending-tour-item__group-infor__lasting, .related-tour .trending-tour-item__group-infor__lasting {
   margin-top: 10px;
   font-size: 13px;
+}
+.trending-tour-item__group-infor .trending-tour-item__group-infor__lasting {
+  margin-top: 1px;
+  font-size: 12px;
 }
 
 .filterable-tour__tittle {
