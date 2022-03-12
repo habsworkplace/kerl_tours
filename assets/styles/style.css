@@ -16851,6 +16851,28 @@ iframe {
   transform: translate(-50%, -50%);
 }
 
+.float-call {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+
+.float-call:hover {
+  opacity: 1;
+  box-shadow: -2px 2px 23px -6px black;
+}
+
+
 .scroll-top {
   opacity: 0.5;
   position: fixed;
@@ -18065,6 +18087,15 @@ REPONSIVE
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.62);
     -o-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.62);
   }
+
+   .float-call {
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:40px;
+        font-size:25px;
+    }
+
 }
 
 @media (max-width: 474px) {
@@ -18503,9 +18534,14 @@ REPONSIVE
 }
 
 @media (max-width: 1200px) {
-  .header-2-nav, .header-content2__call {
-    display: none;
-  }
+   .header-content2__call  {
+      text-align: end;
+    }
+
+    .header-content2__call__phone-number span, .header-content2__call__phone-number p {
+      font-size: 16px;
+      padding-bottom:2px;
+    }
   .header-content2, .header-content2--style2 {
     position: relative;
   }
