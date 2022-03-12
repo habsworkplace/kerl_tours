@@ -14262,14 +14262,14 @@ iframe {
   justify-content: center;
   width: 100%;
   padding: 0 15px;
-  top: 25%;
+  top: 75%;
   position: absolute;
 }
 
 .slider-banner-3__item__text span {
   font-family: Lato-regular;
   font-size: 30px;
-  color: #a7b5be;
+  color: green;
   font-weight: normal;
 }
 
@@ -14281,8 +14281,9 @@ iframe {
   text-transform: uppercase;
   font-family: Lato-900;
   font-size: 70px;
-  color: #ffffff;
   font-weight: normal;
+  text-shadow: 7px 2px 9px #000;
+  color: #73b3fd;
 }
 
 .index-4-form-area {
@@ -14619,7 +14620,7 @@ iframe {
 
 .travel-review {
   margin: 60px 0;
-  padding: 0 50px 40px;
+  padding:  50px 40px;
   display: inline-flex !important;
   flex-direction: column;
   text-align: center;
@@ -16851,6 +16852,28 @@ iframe {
   transform: translate(-50%, -50%);
 }
 
+.float-call {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+
+.float-call:hover {
+  opacity: 1;
+  box-shadow: -2px 2px 23px -6px black;
+}
+
+
 .scroll-top {
   opacity: 0.5;
   position: fixed;
@@ -17351,6 +17374,18 @@ HEADER
   font-size: 20px;
   color: #ffc600;
 }
+
+.img-overlay:after {
+     content: '\A';
+     position: absolute;
+     width: 100%; height:100%;
+     top:0; left:0;
+     background:rgba(0,0,0,0.9);
+     opacity: 0;
+     transition: all 1s;
+     -webkit-transition: all 1s;
+ }
+
 
 .header-content2__hamburger span, .header-content3__hamburger span {
   background-color: black;
@@ -18065,6 +18100,15 @@ REPONSIVE
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.62);
     -o-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.62);
   }
+
+   .float-call {
+        width:40px;
+        height:40px;
+        bottom:40px;
+        right:40px;
+        font-size:25px;
+    }
+
 }
 
 @media (max-width: 474px) {
@@ -18503,9 +18547,14 @@ REPONSIVE
 }
 
 @media (max-width: 1200px) {
-  .header-2-nav, .header-content2__call {
-    display: none;
-  }
+   .header-content2__call  {
+      text-align: end;
+    }
+
+    .header-content2__call__phone-number span, .header-content2__call__phone-number p {
+      font-size: 16px;
+      padding-bottom:2px;
+    }
   .header-content2, .header-content2--style2 {
     position: relative;
   }
@@ -18678,13 +18727,14 @@ REPONSIVE
 
 @media (max-width: 1200px) {
   .slider-banner-3 .slider-banner-3__item__text h1 {
-    font-size: 50px;
+    font-size: 30px;
+
   }
 }
 
 @media (max-width: 768px) {
   .slider-banner-3 .slider-banner-3__item__text span {
-    font-size: 20px;
+    font-size: 16px;slider-banner-3__item__text
   }
 }
 
@@ -18693,10 +18743,10 @@ REPONSIVE
     width: 100%;
   }
   .slider-banner-3 .slider-banner-3__item__text {
-    top: 10%;
+    top: 73%;
   }
   .slider-banner-3 .slider-banner-3__item__text h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
