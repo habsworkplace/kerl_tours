@@ -17647,7 +17647,6 @@ FOOTER
   background-image: url("../images/uploads/pagebanner/footerbanner.jpg");
   background-position: center;
   background-size: cover;
-  height: 600px;
   width: 100%;
   position: relative;
 }
@@ -18410,7 +18409,7 @@ REPONSIVE
 
 @media (max-width: 480px) {
   #footer-1 {
-    height: 1180px;
+    height: 100%;
   }
   .footer-widget-1--margin {
     text-align: center;
