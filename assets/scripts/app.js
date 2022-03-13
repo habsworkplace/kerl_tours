@@ -454,6 +454,8 @@ function PageMarker($link,$Class){
             infinite:true,
             autoplay: true,
             autoplaySpeed: 2000,
+            centerMode: true,
+            variableWidth: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             prevArrow:false,
