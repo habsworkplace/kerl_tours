@@ -14280,7 +14280,7 @@ iframe {
 .slider-banner-3__item__text h1 {
   text-transform: uppercase;
   font-family: Lato-900;
-  font-size: 70px;
+  font-size: 25px;
   font-weight: normal;
   text-shadow: 7px 2px 9px #000;
   color: #73b3fd;
@@ -18731,7 +18731,7 @@ REPONSIVE
 
 @media (max-width: 1200px) {
   .slider-banner-3 .slider-banner-3__item__text h1 {
-    font-size: 30px;
+    font-size: 25px;
 
   }
 }
@@ -18748,9 +18748,10 @@ REPONSIVE
   }
   .slider-banner-3 .slider-banner-3__item__text {
     top: 73%;
+    left: 35%;
   }
   .slider-banner-3 .slider-banner-3__item__text h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
