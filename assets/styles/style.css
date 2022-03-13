@@ -17647,7 +17647,7 @@ FOOTER
   background-image: url("../images/uploads/pagebanner/footerbanner.jpg");
   background-position: center;
   background-size: cover;
-  height: 900px;
+  height: 600px;
   width: 100%;
   position: relative;
 }
@@ -18500,6 +18500,11 @@ REPONSIVE
   .qa-travel__question__text {
     font-size: 25px;
   }
+
+
+.footer-menu__item a {
+  width: 100%;
+}
 }
 
 @media (max-width: 768px) {
