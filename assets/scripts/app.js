@@ -448,6 +448,19 @@ function PageMarker($link,$Class){
         })
     }
 
+    homeSlider();
+    function homeSlider(){
+        $(".slider-banner-3").slick({
+            infinite:true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow:false,
+            nextArrow: false,
+            dots:true,
+        });
+    }
 
 //------------------------------Form-----------------------------------------
  
