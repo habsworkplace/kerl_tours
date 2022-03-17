@@ -14249,12 +14249,21 @@ iframe {
   color: #ffc600 !important;
 }
 
+.slider-banner-3 {
+  display:flex;
+}
+.slider-banner-3 > div{
+ flex: 1;
+}
+
+
 .slider-banner-3__item {
   position: relative;
 }
 
 .slider-banner-3__item > img {
   vertical-align: middle;
+  max-height:350px;
 }
 
 .slider-banner-3__item__text {
