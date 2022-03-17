@@ -9205,35 +9205,58 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands';
 }
-
+/* lato-300 - latin */
 @font-face {
-  font-family: Lato-regular;
+  font-family: 'Lato-300';
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-regular.eot"), url("fonts/Lato/lato-v15-latin-regular.woff2") format("woff2"), url("fonts/Lato/lato-v15-latin-regular.woff") format("woff"), url("fonts/Lato/lato-v15-latin-regular.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-regular.svg") format("svg");
-  /* Legacy iOS */
+  font-weight: 300;
+  src: url('fonts/Lato/lato-v22-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/Lato/lato-v22-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato/lato-v22-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Lato/lato-v22-latin-300.svg#Lato') format('svg'); /* Legacy iOS */
 }
-
+/* lato-regular - latin */
 @font-face {
-  font-family: Lato-700;
+  font-family: 'Lato-Regular';
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-700.eot"), url("fonts/Lato/lato-v15-latin-700.woff") format("woff2"), url("http://html.bdiakcml8h-e92498n216kr.p.runcloud.link/wunderlust/assets/styles/fontsLato/lato-v15-latin-700.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-700.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-700.svg") format("svg");
-  /* Legacy iOS */
+  font-weight: 400;
+  src: url('fonts/Lato/lato-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/Lato/lato-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato/lato-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Lato/lato-v22-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
-
+/* lato-700 - latin */
 @font-face {
-  font-family: Lato-300;
+  font-family: 'Lato-700';
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-300.eot"), url("fonts/Lato/lato-v15-latin-300.woff2") format("woff2"), url("fonts/Lato/lato-v15-latin-300.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-300.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-300.svg") format("svg");
-  /* Legacy iOS */
+  font-weight: 700;
+  src: url('fonts/Lato/lato-v22-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/Lato/lato-v22-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato/lato-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Lato/lato-v22-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
 }
-
+/* lato-900 - latin */
 @font-face {
-  font-family: Lato-900;
+  font-family: 'Lato-900';
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-900.eot"), url("fonts/Lato/lato-v15-latin-900.woff") format("woff2"), url("http://html.bdiakcml8h-e92498n216kr.p.runcloud.link/wunderlust/assets/styles/fontsLato/lato-v15-latin-900.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-900.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-900.svg") format("svg");
-  /* Legacy iOS */
+  font-weight: 900;
+  src: url('fonts/Lato/lato-v22-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/Lato/lato-v22-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Lato/lato-v22-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Lato/lato-v22-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Lato/lato-v22-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
 }
-
 /* ubuntu-300 - latin */
 @font-face {
   font-family: 'Ubuntu-300';
