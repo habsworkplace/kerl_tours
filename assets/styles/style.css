@@ -17869,8 +17869,8 @@ FOOTER
 }
 
 .qa-travel {
-  height: 160px;
   width: 100%;
+  padding: 25px;
   background-image: url("../images/q&abrg.png");
   background-position: center;
   background-size: cover;
@@ -17896,6 +17896,7 @@ FOOTER
   color: black;
   font-weight: normal;
   margin: 0;
+  padding:10px;
 }
 
 .qa-travel__question h6 span {
@@ -17930,6 +17931,9 @@ FOOTER
   .qa-travel__question {
     justify-content: space-around;
   }
+  .qa-travel__question >* {
+       margin: 10px;
+     }
 }
 
 @media (max-width: 768px) {
